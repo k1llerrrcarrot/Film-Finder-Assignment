@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Winc Film Finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="movie-database.js"></script>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Winc Film Finder</h1>
+        
+            <nav class="filter-nav">
+                <div class="filter-nav-element">
+                    <input id="latest-movies" class="radio-button" type="radio" name="filter" value="latest-movies" />
+                    <label for="latest-movies">Latest movies, 2014 or newer</label>
+                </div>
+
+                <div class="filter-nav-element">    
+                    <input id="avenger-movies" class="radio-button" type="radio" name="filter" value="avenger-movies" />
+                    <label for="avenger-movies">Avenger movies</label>
+                </div>
+
+                <div class="filter-nav-element">    
+                    <input id="x-men-movies" class="radio-button" type="radio" name="filter" value="xmen-movies" />
+                    <label for="x-men-movies">X-Men movies</label>
+                </div>
+
+                <div class="filter-nav-element">
+                    <input id="princess-movies" class="radio-button" type="radio" name="filter" value="princess-movies" />
+                    <label for="princess-movies">Princess movies</label>
+                </div>
+
+                <div class="filter-nav-element">
+                    <input id="batman-movies" class="radio-button" type="radio" name="filter" value="batman-movies" />
+                    <label for="batman-movies">Batman movies</label>
+                </div>
+            
+                <div class="filter-nav-element">
+                    <label for="search-bar">Search:</label>
+                    <input id="search-bar" class="search-bar" type="search" name="search-bar" />
+                    <button id="search-button">Go!</button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <ul id="movie-list">
+
+            </ul>
+        </main>
+    </body>
+</html>
