@@ -6,3 +6,6 @@ De database is simpelweg een array van objects waar onder andere de titel, filmp
 
 Door op de films in de lijst te klikken kan de bijbehorende IMDB-pagina worden geopend.
 
+Nadruk hier ligt voornamelijk op twee dingen:
+- Het werken met grotere datasets, zoals deze in databases vaak gevonden worden.
+- Het opbouwen van een webpagina op basis van de combinatie van beschikbare data en user input.
